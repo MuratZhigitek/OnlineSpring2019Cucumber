@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Vehicles
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.168 s <<< FAILURE! - in Vehicles
+Login as driver and navigate to the Vehicles(Vehicles)  Time elapsed: 9.168 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Cars]> but was:<[Quick Launchpad]>
+

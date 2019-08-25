@@ -3,14 +3,18 @@ package com.vytrack.runners;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
+
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
+
         plugin = {
-                "json:target/cucumber.json",
+                "json:target/cucumber2.json",
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-        features = {"@target/rerun.txt" //to specify where txt file with failed features
+       // tags = {"@negative or @login_with_outline_3"},
+        features = {"src/test/resources/features/vehicles" //to specify where are the features
         },
         //feature contains scenarios
         //every scenario is like a test
@@ -21,5 +25,6 @@ import org.junit.runner.RunWith;
         dryRun = false
 
 )
-public class FailedRunner {
+public class CukesRunner2 {
+
 }

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.vytrack.runners.CukesRunner
+Test set: All Calendar Events
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 327.421 s - in com.vytrack.runners.CukesRunner
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.873 s - in All Calendar Events

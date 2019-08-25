@@ -1,9 +1,10 @@
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/utilities/Pages.java
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/step_definitions/TopMenuStepDefinitions.java
+/Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/runners/CukesRunner2.java
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/pages/login_packages/LoginPage.java
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/pages/dashboards/ManageDashboards.java
-/Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/runners/FailedRunner.java
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/step_definitions/CalendarEventsStepDefinitions.java
+/Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/runners/CukesRunner3.java
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/utilities/BrowserUtils.java
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/step_definitions/LoginStepDefinitions.java
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/utilities/ConfigurationReader.java
@@ -15,4 +16,5 @@
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/step_definitions/VehicleStepDefinitions.java
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/pages/activities/CalendarEventsPage.java
 /Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/pages/activities/CallsPage.java
-/Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/runners/CukesRunner.java
+/Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/runners/CukesRunner1.java
+/Users/muratbekzhigitekov/IdeaProjects/OnlineSpring2019Cucumber/src/test/java/com/vytrack/runners/CukesRunner4.java

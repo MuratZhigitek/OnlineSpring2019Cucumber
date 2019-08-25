@@ -1,0 +1,254 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 741787739,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1384009133,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user log in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinitions.user_log_in_as_a(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5827959343,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login as driver and navigate to the Vehicles",
+        "description": "",
+        "id": "navigation-menu-options;login-as-driver-and-navigate-to-the-vehicles",
+        "after": [
+          {
+            "result": {
+              "duration": 327107257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5409523411,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user navigate to \"Fleet\" and \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 29
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigate_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 725549866,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verifies that \"Cars\" page name is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cars\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_page_name_is_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 247685862,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 684111078,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user log in as a \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinitions.user_log_in_as_a(String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2086433487,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login as driver and navigate to the Vehicles Odometer",
+        "description": "",
+        "id": "navigation-menu-options;login-as-driver-and-navigate-to-the-vehicles-odometer",
+        "after": [
+          {
+            "result": {
+              "duration": 229607964,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4475748513,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user navigate to \"Fleet\" and \"Vehicle Odometer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Vehicle Odometer\"",
+                  "offset": 29
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigate_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93666530,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies that \"Vehicles Odometers\" page name is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vehicles Odometers\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_page_name_is_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation menu options",
+    "description": "  As user I want to use top menu for navigation",
+    "id": "navigation-menu-options",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/topmenu/Navigation.feature",
+    "tags": [
+      {
+        "name": "@navigation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

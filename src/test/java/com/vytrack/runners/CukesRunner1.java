@@ -9,12 +9,12 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         plugin = {
-                "json:target/cucumber.json",
+                "json:target/cucumber1.json",
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-        tags = {"@negative or @login_with_outline_3"},
-        features = {"src/test/resources/features" //to specify where are the features
+       // tags = {"@negative or @login_with_outline_3"},
+        features = {"src/test/resources/features/activities" //to specify where are the features
         },
         //feature contains scenarios
         //every scenario is like a test
@@ -25,6 +25,6 @@ import org.junit.runner.RunWith;
         dryRun = false
 
 )
-public class CukesRunner{
+public class CukesRunner1 {
 
 }

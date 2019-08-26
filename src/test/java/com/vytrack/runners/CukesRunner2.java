@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-       // tags = {"@negative or @login_with_outline_3"},
+        tags = {"@negative or @login_with_outline_3"},
         features = {"src/test/resources/features/vehicles" //to specify where are the features
         },
         //feature contains scenarios
